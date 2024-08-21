@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.qr-code h4 {
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.qr-code p {
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.qr-code input {
+  height: 2.5rem;
+  width: 100%;
+  border-radius: 8px;
+  font-size: 1rem;
+  padding: 0 10px;
+  margin: 20px 0;
+  border: 1px solid #ddd;
+  outline: none;
+}
+
+.qr-code button {
+  height: 2.5rem;
+  width: 100%;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.qr-code button:hover {
+  background-color: #0056b3;
+}
+.qr-code button:active {
+  filter: brightness(1.4);
+}
+
+.qr-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.qr-img img {
+  visibility: hidden;
+}
+
+#msg {
+  text-align: center;
+  visibility: hidden;
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 20px;
+}
